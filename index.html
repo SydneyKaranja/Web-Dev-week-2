@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Week 2</title>
+    </head>
+    <body>
+        <h1>Enhanced HTML elements</h1>
+        <h2>Definition Lists</h2>
+        <dl>
+            <dt>USA</dt>
+            <dd>United States of America</dd>
+            <dt>UAE</dt>
+            <dd>United Arab Emirates</dd>
+            <dt>UK</dt>
+            <dd>United Kingdom</dd>
+        </dl>
+        <h2>Nested Lists</h2>
+        <ol>
+            <li>Fruits
+                <ul>
+                    <li>Apple</li>
+                    <li>Banana</li>
+                    <li>Cherry</li>
+                </ul>
+            </li>
+            <li>Vegetables
+                <ul>
+                    <li>Carrot</li>
+                    <li>Broccoli</li>
+                    <li>Spinach</li>
+                </ul>
+            </li>
+            <li>Dairy
+                <ul>
+                    <li>Milk</li>
+                    <li>Cheese</li>
+                    <li>Yogurt</li>
+                </ul>
+            </li>
+        </ol>
+        <h2>Multimedia</h2>
+        <h3>Images</h3>
+        <img src="Photo by Pixabay from Pexels: https://www.pexels.com/photo/soccer-ball-on-grass-field-during-daytime-46798/" 
+             alt="Soccer Ball on Grass Field" />
+        <h3>Audio</h3>
+        <audio controls>
+            <source src="https://open.spotify.com/track/4BDgGQXx7jO2JgC7bpFsIv?si=b667975a9b3e40c9"type="audio/mpeg">
+            Your browser does not support the audio playback.
+        </audio>
+        <h3>Video</h3>
+        <video width="320" height="240" controls>
+            <source src="Video by Boris from Pexels: https://www.pexels.com/video/an-arena-full-of-spectators-3722209/" type="video/mp4">
+            Your browser does not support the video playback.
+        </video>
+        <h2>Tables</h2>
+        <table>
+            <thead>
+                <tr>
+                    <td>Name</td>
+                    <td>Country</td>
+                    <td>Gender</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lionel Messi</td>
+                    <td>Argentina</td>
+                    <td>Male</td>
+                </tr>
+                <tr>
+                    <td>Alexis Putellas</td>
+                    <td>Spain</td>
+                    <td>Female</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Forms</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <br>
+            <label for="gender-male">Gender:</label>
+            <input type="radio" id="gender-male" name="gender" value="male">
+            <label for="gender-male">Male</label>
+            <input type="radio" id="gender-female" name="gender" value="female">
+            <label for="gender-female">Female</label>
+            <br>
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="select country">Select Country:</option>
+                <option value="kenya">Kenya</option>
+                <option value="uganda">Uganda</option>
+                <option value="tanzania">Tanzania</option>
+            </select>
+            <br><br>
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </form> 
+    </body>
+</html>
